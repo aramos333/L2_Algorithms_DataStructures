@@ -33,11 +33,12 @@ namespace L2_Algorithms_DataStructures
       // What will this print?
       Console.WriteLine(Array2D[3, 1]);
 
-      // Exercise: Create a 2D array of strings - 4 rows and 3 columns
-      // each row to contain related colors (e.g. "red", "orange", "brown")
+            // Exercise: Create a 2D array of strings - 4 rows and 3 columns
+            // each row to contain related colors (e.g. "red", "orange", "brown")
 
-      // Exercise: Print each row
-
+            // Exercise: Print each row
+            string[,] myarray = new string[4, 3] { { 'red' '1' }, {'orange','2'} , {'brown', '3' },{'white','4' } };
+  
 
       // Hash tables/ Dictionaries
       // https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2?view=netframework-4.8
