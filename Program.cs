@@ -37,7 +37,12 @@ namespace L2_Algorithms_DataStructures
             // each row to contain related colors (e.g. "red", "orange", "brown")
 
             // Exercise: Print each row
-            string[,] myarray = new string[4, 3] { { 'red' '1' }, {'orange','2'} , {'brown', '3' },{'white','4' } };
+            string[,] myarray = new string[4,3] { 
+                                                    {"red", "dark red", "light red"}, 
+                                                    {"orange","dark orange", "light orange"} , 
+                                                    {"brown", "dark brown", "light brown" },
+                                                    {"blue","dark blue", "light blue" } 
+            };
   
 
       // Hash tables/ Dictionaries
